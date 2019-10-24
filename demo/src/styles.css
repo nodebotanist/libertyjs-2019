@@ -1,0 +1,18 @@
+canvas, #pre-magicked, #post-magicked {
+	display: block;
+	margin: 15px auto;
+	max-height: 350px;
+}
+
+button: {
+	display: inline-block;
+}
+
+.container {
+	margin: .25rem;
+}
+
+canvas, video {
+	display:none
+}
+

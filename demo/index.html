@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+	<title>NEJS Demo</title>
+	<link rel="stylesheet" href="./src/bootstrap.min.css">
+	<link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<form>
+				<Label for="image">Select Source:</Label>
+				<select name="image">
+					<option value="" selected>Select an Image</option>
+					<option value="derp">derp</option>
+					<option value="HTTP-200">HTTP 200</option>
+					<option value="javascript">JavaScript</option>
+					<option value="who-let-you">Who let you do this?</option>
+					<option value="webcam">Webcam snapshot</option>
+				</select>
+			</form>
+		</div>
+		<div class="row">
+			<div class="col">
+				<img id="pre-magicked" />
+				<canvas height=480 width=620></canvas>
+			</div>
+			<div class="col">
+				<img id="post-magicked" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<button value="rotate-right" class="js-manip btn btn-dark">Rotate Right</button>
+				<button value="rotate-left" class="js-manip btn btn-dark">Rotate Left</button>
+				<button value="grayscale" class="js-manip btn btn-dark">Grayscale</button>
+				<button value="add-contrast" class="js-manip btn btn-dark">Add Contrast</button>
+				<button value="remove-contrast" class="js-manip btn btn-dark">Remove Contrast</button>
+				<button value="blur" class="js-manip btn btn-dark">Blur</button>
+			</div>
+		</div>
+		<div class="row">
+		<video height=480 width=620></video>
+		</div>
+	</div>
+	<script src="./dist/main.js"></script>
+</body>
