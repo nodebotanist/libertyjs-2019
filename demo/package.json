@@ -6,7 +6,7 @@
   "main": "index.js",
   "dependencies": {
     "12": "^1.0.2",
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "is-blob": "^2.0.1",
     "wasm-imagemagick": "^1.2.1"
   },
